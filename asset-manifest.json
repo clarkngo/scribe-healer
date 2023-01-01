@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/scribe-healer/static/css/main.e6c13ad2.css",
-    "main.js": "/scribe-healer/static/js/main.79476ace.js",
+    "main.js": "/scribe-healer/static/js/main.3f59285b.js",
     "static/js/787.50b188d9.chunk.js": "/scribe-healer/static/js/787.50b188d9.chunk.js",
     "index.html": "/scribe-healer/index.html",
     "main.e6c13ad2.css.map": "/scribe-healer/static/css/main.e6c13ad2.css.map",
-    "main.79476ace.js.map": "/scribe-healer/static/js/main.79476ace.js.map",
+    "main.3f59285b.js.map": "/scribe-healer/static/js/main.3f59285b.js.map",
     "787.50b188d9.chunk.js.map": "/scribe-healer/static/js/787.50b188d9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.79476ace.js"
+    "static/js/main.3f59285b.js"
   ]
 }
