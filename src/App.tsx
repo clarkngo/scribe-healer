@@ -1,15 +1,17 @@
 import React from 'react';
-import ProjectsPage from './projects/ProjectsPage';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import HomePage from './home/HomePage';
 import PokemonsPage from './pokemons/PokemonsPage';
+import ProjectsPage from './projects/ProjectsPage';
 
-const App: React.FC = () => {
- 
+export default function App() {
   return (
-    <div className='container'>
-      <PokemonsPage />
-      {/* <ProjectsPage /> */}
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/pokedex" element={<PokemonsPage />} />
+        <Route path="/project" element={<ProjectsPage />} />
+      </Routes>
+    </Router>
   );
-};
-
-export default App;
+}
