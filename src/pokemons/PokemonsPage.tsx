@@ -1,6 +1,5 @@
 import React from "react";
 import pokemon from './MockPokemons';
-import PokemonList from "./PokemonList";
 import { Table, Tag } from 'antd';
 import { Name, Base } from './Pokemon';
 
@@ -41,9 +40,7 @@ const columns = [
       title: 'Types',
       dataIndex: 'type',
       key: 'type',
-    //   render: (types: string[]) => types.map(type => type).join(", "), 
       render: (types: string[]) => types.map(type => {
-        // let color = TYPES[type];
         return (
             <Tag color={TYPES[type]} key={type}>
                 {type.toUpperCase()}
