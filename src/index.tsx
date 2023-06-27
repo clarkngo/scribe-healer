@@ -9,7 +9,7 @@ import "./index.css";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/scribe-healer",
     element: <Root />,
     errorElement: <ErrorPage />,
     children: [
